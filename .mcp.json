@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "wraith": {
+      "command": "J:\wraith-browser\target\release\wraith-browser.exe",
+      "args": ["serve", "--transport", "stdio"],
+      "env": {
+        "WRAITH_FLARESOLVERR": "http://localhost:8191",
+        "WRAITH_CDP_CHROME": "C:\Program Files\Google\Chrome\Application\chrome.exe",
+        "WRAITH_CDP_AUTO": "true"
+      }
+    }
+  }
+}
